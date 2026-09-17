@@ -13,7 +13,7 @@ gem "releaser", path: "tools/releaser"
 gem "sprockets-rails", ">= 2.0.0", require: false
 gem "propshaft", ">= 0.1.7", "!= 1.0.1"
 gem "capybara", ">= 3.39"
-gem "selenium-webdriver", ">= 4.20.0"
+gem "selenium-webdriver", ">= 4.35.0"
 
 gem "rack-cache", "~> 1.2"
 gem "stimulus-rails"
@@ -71,7 +71,7 @@ group :doc do
   gem "redcarpet", "~> 3.2.3", platforms: :ruby
   gem "w3c_validators", "~> 1.3.6"
   gem "rouge"
-  gem "rubyzip", "~> 2.0"
+  gem "rubyzip", "~> 3.4", ">= 3.4.0"
 end
 
 # Active Support
